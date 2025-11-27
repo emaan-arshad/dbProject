@@ -1,0 +1,26 @@
+{
+  "name": "leakpeak-app",
+  "version": "1.0.0",
+  "description": "Data breach monitoring application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "express-session": "^1.18.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["security", "breach", "monitoring"],
+  "author": "Leak Peak Team",
+  "license": "MIT"
+}
